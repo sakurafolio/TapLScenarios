@@ -9,6 +9,9 @@ import sakurafolio.taplscenarios.TapLScenarios
 import sakurafolio.taplscenarios.util.MetadataExtensions.setMetadata
 import sakurafolio.taplscenarios.util.MetadataExtensions.getMetadata
 
+/**
+ * When you eat 5 food, you gain 1 level of slowness.
+ */
 class WeightGains(plugin: TapLScenarios) : Scenario(plugin, "WeightGains") {
     private val consumedKey = key("consumed")
     private val multiplierKey = key("amplifier")
