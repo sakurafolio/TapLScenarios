@@ -7,6 +7,7 @@ import sakurafolio.taplscenarios.scenarios.*
 
 class ScenarioManager(val plugin: TapLScenarios) {
     val scenarios = listOf(
+        SpeedyBuilds(plugin),
         WeightGains(plugin)
     )
 
